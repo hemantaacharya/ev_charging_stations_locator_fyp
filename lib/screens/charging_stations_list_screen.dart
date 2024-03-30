@@ -1,24 +1,79 @@
-import 'package:ev_charging_stations_locator_fyp/data/station_data.dart';
-import 'package:ev_charging_stations_locator_fyp/widgets/charging_station_card.dart';
-import 'package:flutter/material.dart';
-import 'package:ev_charging_stations_locator_fyp/models/charging_station.dart';
+// ignore_for_file: library_private_types_in_public_api
 
-class ChargingStationListScreen extends StatelessWidget {
-  const ChargingStationListScreen({super.key});
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:ev_charging_stations_locator_fyp/providers/charging_station_provider.dart';
+import 'package:ev_charging_stations_locator_fyp/widgets/charging_station_card.dart';
+import 'package:ev_charging_stations_locator_fyp/widgets/custom_search_bar.dart';
+
+class ChargingStationsListScreen extends StatefulWidget {
+  const ChargingStationsListScreen({super.key});
+
+  @override
+  _ChargingStationsListScreenState createState() =>
+      _ChargingStationsListScreenState();
+}
+
+class _ChargingStationsListScreenState
+    extends State<ChargingStationsListScreen> {
+  bool _isInitialized = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _initializeData();
+  }
+
+  Future<void> _initializeData() async {
+    try {
+      await Provider.of<ChargingStationProvider>(context, listen: false)
+          .initializeStations();
+      setState(() {
+        _isInitialized = true;
+      });
+    } catch (error) {
+      print('Error initializing charging stations: $error');
+      // Handle error (display error message, retry logic, etc.)
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
+    final provider = Provider.of<ChargingStationProvider>(context);
+
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Charging Stations'),
+        actions: [
+          // Wrap CustomSearchBar with Expanded for flexible sizing
+          Expanded(
+            child: CustomSearchBar(provider: provider),
+          ),
+        ],
       ),
-      body: ListView.builder(
-        itemCount: StationData.chargingStations.length,
-        itemBuilder: (context, index) {
-          final chargingStation = StationData.chargingStations[index];
-          return ChargingStationCard(chargingStation: chargingStation);
-        },
-      ),
+      body: _isInitialized
+          ? Consumer<ChargingStationProvider>(
+              builder: (context, chargingStationProvider, _) {
+                print(
+                    'Retrieved ${chargingStationProvider.stations.length} charging stations');
+                if (chargingStationProvider.stations.isEmpty) {
+                  // Handle empty data case (display a message, retry logic)
+                  return const Center(
+                    child: Text('No charging stations found.'),
+                  );
+                }
+
+                return ListView.builder(
+                  itemCount: chargingStationProvider.stations.length,
+                  itemBuilder: (context, index) {
+                    final station = chargingStationProvider.stations[index];
+                    return ChargingStationCard(
+                      station: station,
+                    );
+                  },
+                );
+              },
+            )
+          : const Center(child: CircularProgressIndicator()),
     );
   }
 }

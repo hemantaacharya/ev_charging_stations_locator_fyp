@@ -1,6 +1,5 @@
-import 'package:flutter/material.dart';
-
 class ChargingStation {
+  final String id;
   final String name;
   final String city;
   final String province;
@@ -9,8 +8,11 @@ class ChargingStation {
   final List<String> type;
   final double latitude;
   final double longitude;
+  final List<String>? amenities;
+  final List<String>? features;
 
   ChargingStation({
+    required this.id,
     required this.name,
     required this.city,
     required this.province,
@@ -19,28 +21,7 @@ class ChargingStation {
     required this.type,
     required this.latitude,
     required this.longitude,
+    this.amenities,
+    this.features,
   });
-
-  dynamic operator [](String key) {
-    switch (key) {
-      case 'name':
-        return name;
-      case 'city':
-        return city;
-      case 'province':
-        return province;
-      case 'address':
-        return address;
-      case 'telephone':
-        return telephone;
-      case 'type':
-        return type;
-      case 'latitude':
-        return latitude;
-      case 'longitude':
-        return longitude;
-      default:
-        return null; // Handle unknown key or return a default value
-    }
-  }
 }

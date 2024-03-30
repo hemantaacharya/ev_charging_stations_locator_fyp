@@ -1,7 +1,12 @@
-import 'package:ev_charging_stations_locator_fyp/utils/route_generator.dart';
+import 'package:ev_charging_stations_locator_fyp/providers/charging_station_provider.dart';
+import 'package:ev_charging_stations_locator_fyp/screens/charging_stations_list_screen.dart';
+import 'package:ev_charging_stations_locator_fyp/screens/home_screen.dart';
+import 'package:ev_charging_stations_locator_fyp/screens/map_screen.dart';
+import 'package:ev_charging_stations_locator_fyp/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-void main() {
+void main() async {
   runApp(const MyApp());
 }
 
@@ -10,11 +15,25 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Charging Stations App',
-      initialRoute: '/',
-      onGenerateRoute: RouteGenerator.generateRoute,
+    return ChangeNotifierProvider(
+      create: (_) => ChargingStationProvider(),
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'My App',
+        initialRoute: '/splash',
+        routes: {
+          '/splash': (context) => const SplashScreen(),
+          '/': (context) => const HomeScreen(),
+          '/list': (context) => const ChargingStationsListScreen(),
+          '/map': (context) => const MapScreen(),
+        },
+        onGenerateRoute: (settings) {
+          if (settings.name == '/') {
+            return MaterialPageRoute(builder: (context) => const HomeScreen());
+          }
+          return null;
+        },
+      ),
     );
   }
 }
