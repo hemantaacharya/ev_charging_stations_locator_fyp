@@ -10,6 +10,7 @@ import 'package:ev_charging_stations_locator_fyp/providers/charging_station_prov
 import '../services/location_service.dart';
 
 class MapScreen extends StatefulWidget {
+  // ignore: use_key_in_widget_constructors
   const MapScreen({Key? key});
 
   @override
@@ -113,14 +114,15 @@ class _MapScreenState extends State<MapScreen> {
               _mapController.complete(controller);
             },
             markers: _markers.union(_buildMarkers(filteredStations)),
-            zoomControlsEnabled: true, // Enable zoom controls
+            zoomControlsEnabled: false,
+            myLocationEnabled: false, // Enable zoom controls
           ),
           Positioned(
             bottom: 16.0,
             right: 165.0,
             child: FloatingActionButton(
               onPressed: _goToCurrentLocation,
-              child: const Icon(Icons.my_location),
+              child: const Icon(Icons.home),
             ),
           ),
         ],
