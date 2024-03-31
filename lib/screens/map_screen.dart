@@ -122,7 +122,7 @@ class _MapScreenState extends State<MapScreen> {
             right: 165.0,
             child: FloatingActionButton(
               onPressed: _goToCurrentLocation,
-              child: const Icon(Icons.home),
+              child: const Icon(Icons.home_filled),
             ),
           ),
         ],
