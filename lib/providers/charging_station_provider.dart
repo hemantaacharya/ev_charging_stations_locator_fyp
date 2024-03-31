@@ -4,6 +4,10 @@ import 'package:flutter/foundation.dart';
 import 'package:ev_charging_stations_locator_fyp/models/charging_station.dart';
 
 class ChargingStationProvider with ChangeNotifier {
+  final List<ChargingStation> _chargingStations = [];
+
+  List<ChargingStation> get chargingStations => _chargingStations;
+
   late List<ChargingStation> _allStations;
   late List<ChargingStation> _filteredStations;
   String _searchText = "";

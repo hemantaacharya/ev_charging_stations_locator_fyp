@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       create: (_) => ChargingStationProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'My App',
+        title: "Hemanta's App",
         initialRoute: '/splash',
         routes: {
           '/splash': (context) => const SplashScreen(),

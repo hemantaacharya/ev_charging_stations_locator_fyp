@@ -58,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             child: Container(
                               padding: const EdgeInsets.symmetric(
                                 horizontal: 50,
-                                vertical: 10,
+                                vertical: 8,
                               ),
                               decoration: BoxDecoration(
                                 color: _selectedIndex == index

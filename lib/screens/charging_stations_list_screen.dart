@@ -43,6 +43,7 @@ class _ChargingStationsListScreenState
 
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false, // Remove the back button
         actions: [
           // Wrap CustomSearchBar with Expanded for flexible sizing
           Expanded(
@@ -55,6 +56,7 @@ class _ChargingStationsListScreenState
               builder: (context, chargingStationProvider, _) {
                 print(
                     'Retrieved ${chargingStationProvider.stations.length} charging stations');
+
                 if (chargingStationProvider.stations.isEmpty) {
                   // Handle empty data case (display a message, retry logic)
                   return const Center(
