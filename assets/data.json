@@ -1,6 +1,5 @@
 [
 	{
-		"id": "1",
 		"name": "Hotel Barahi",
 		"city": "Pokhara",
 		"province": "3",
@@ -26,7 +25,6 @@
 		]
 	},
 	{
-		"id": "2",
 		"name": "Hundai Service (L I Auto Service)",
 		"city": "Kathmandu",
 		"province": "3",
@@ -45,7 +43,6 @@
 		"amenities": ["wifi", "parking", "restroom"]
 	},
 	{
-		"id": "3",
 		"name": "Hyundai Sales/Service Tinkune",
 		"city": "Kathmandu",
 		"province": "3",
@@ -56,7 +53,6 @@
 		"longitude": "85.31175442397266"
 	},
 	{
-		"id": "4",
 		"name": "Siddhartha Resort Chisapani - Hyundai",
 		"city": "Chisapani",
 		"province": "",
@@ -75,7 +71,6 @@
 		"amenities": ["restroom", "parking", "accomodation", "food"]
 	},
 	{
-		"id": "5",
 		"name": "Waterfront Resort, Hyundai AC Charger",
 		"city": "Pokhara",
 		"province": "",
@@ -94,7 +89,6 @@
 		"amenities": ["restroom"]
 	},
 	{
-		"id": "6",
 		"name": "Hotel Landmark MG",
 		"city": "Pokhara",
 		"province": "",
@@ -113,7 +107,6 @@
 		"amenities": ["restroom", "parking", "accomodation", "food"]
 	},
 	{
-		"id": "7",
 		"name": "Nepal Electricity Authority BYD",
 		"city": "Pokhara",
 		"province": "",
@@ -132,7 +125,6 @@
 		"amenities": ["restroom"]
 	},
 	{
-		"id": "8",
 		"name": "Pokhara Grande Hotel Hyundai AC charger",
 		"city": "Pokhara",
 		"province": "",
@@ -151,7 +143,6 @@
 		"amenities": ["accomodation", "parking", "food", "restroom"]
 	},
 	{
-		"id": "9",
 		"name": "Barahi Service Center - Hyundai AC Charger",
 		"city": "Pokhara",
 		"province": "",
@@ -170,7 +161,6 @@
 		"amenities": []
 	},
 	{
-		"id": "10",
 		"name": "Ace Overseas - Kia",
 		"city": "Pokhara",
 		"province": "",
@@ -189,7 +179,6 @@
 		"amenities": ["parking", "restroom"]
 	},
 	{
-		"id": "11",
 		"name": "Sansar trading Pokhara",
 		"city": "Pokhara",
 		"province": "",
@@ -209,7 +198,6 @@
 	},
 
 	{
-		"id": "12",
 		"name": "KOS Dumre 40kW AC Charger",
 		"city": "Thumka",
 		"province": "",
@@ -228,7 +216,6 @@
 		"amenities": ["restroom", "parking"]
 	},
 	{
-		"id": "13",
 		"name": "Baba Dham Traders Thee-Go",
 		"city": "Darechok",
 		"province": "",
@@ -247,7 +234,6 @@
 		"amenities": ["restroom", "parking"]
 	},
 	{
-		"id": "14",
 		"name": "Riverside Spring Resort",
 		"city": "Darechok",
 		"province": "",
@@ -271,7 +257,6 @@
 		"amenities": ["restroom", "parking", "accomodation"]
 	},
 	{
-		"id": "15",
 		"name": "Siddhartha Riverside Resort TATA",
 		"city": "Darechok",
 		"province": "",
@@ -290,7 +275,6 @@
 		"amenities": ["restroom"]
 	},
 	{
-		"id": "16",
 		"name": "Hotel Royal Century MG ZS EV",
 		"city": "Bharatpur",
 		"province": "",
@@ -309,7 +293,6 @@
 		"amenities": ["restroom"]
 	},
 	{
-		"id": "17",
 		"name": "Sajha Auto MG",
 		"city": "Bharatpur",
 		"province": "",
@@ -328,7 +311,6 @@
 		"amenities": ["restroom"]
 	},
 	{
-		"id": "18",
 		"name": "Pinnacle Trading Hyundai AC Charger",
 		"city": "Bharatpur",
 		"province": "",
@@ -347,7 +329,6 @@
 		"amenities": ["restroom"]
 	},
 	{
-		"id": "19",
 		"name": "Landmark Forest Park MG AC CHARGER",
 		"city": "Ratnanagar",
 		"province": "",
@@ -366,7 +347,6 @@
 		"amenities": ["parking"]
 	},
 	{
-		"id": "20",
 		"name": "Hetauda Wheels Hyundai",
 		"city": "Hetauda",
 		"province": "",
@@ -385,7 +365,6 @@
 		"amenities": []
 	},
 	{
-		"id": "21",
 		"name": "Hetauda Bus Park Charging Station (Coming Soon)",
 		"city": "Hetauda",
 		"province": "",
@@ -404,7 +383,6 @@
 		"amenities": []
 	},
 	{
-		"id": "22",
 		"name": "New MAMA'S CAFE (Coming Soon)",
 		"city": "Ugratara Janagal",
 		"province": "",
@@ -423,7 +401,6 @@
 		"amenities": []
 	},
 	{
-		"id": "23",
 		"name": "Akshit Resort and Rafting MG ZS EV",
 		"city": "Mulkot",
 		"province": "",
@@ -442,7 +419,6 @@
 		"amenities": ["restroom"]
 	},
 	{
-		"id": "24",
 		"name": "Taj Riverside Resort TATA Motors",
 		"city": "Purano Jhangajholi",
 		"province": "",
@@ -461,7 +437,6 @@
 		"amenities": ["parking", "restroom"]
 	},
 	{
-		"id": "25",
 		"name": "Sindhuli Bus Park Charging Station (Coming Soon)",
 		"city": "Sindhuli Bus Park",
 		"province": "",
@@ -480,7 +455,6 @@
 		"amenities": ["parking", "restroom"]
 	},
 	{
-		"id": "26",
 		"name": "Komal Hotel",
 		"city": "Mithila",
 		"province": "",
@@ -504,7 +478,6 @@
 		"amenities": ["parking", "restroom", "accomodation", "food"]
 	},
 	{
-		"id": "27",
 		"name": "Lahan Bus Park Charging Station (Coming Soon)",
 		"city": "Lahan",
 		"province": "",
@@ -523,7 +496,6 @@
 		"amenities": []
 	},
 	{
-		"id": "28",
 		"name": "Itahari -12 Khanar",
 		"city": "Itahari",
 		"province": "",
@@ -542,7 +514,6 @@
 		"amenities": []
 	},
 	{
-		"id": "29",
 		"name": "Kesharichand Bhanwarlal Kia (Coming Soon)",
 		"city": "Bargachhi, Biratnagar",
 		"province": "",
@@ -561,7 +532,6 @@
 		"amenities": []
 	},
 	{
-		"id": "30",
 		"name": "Makalu Television",
 		"city": "Biratnagar",
 		"province": "",
@@ -585,7 +555,6 @@
 		"amenities": ["restroom"]
 	},
 	{
-		"id": "31",
 		"name": "Mahalaxmi International",
 		"city": "Birtamode",
 		"province": "",
@@ -605,7 +574,6 @@
 		"amenities": ["parking"]
 	},
 	{
-		"id": "32",
 		"name": "Thapathali EV Showroom",
 		"city": "Kathmandu",
 		"province": "1",
@@ -616,7 +584,6 @@
 		"longitude": "85.31680342774558"
 	},
 	{
-		"id": "33",
 		"name": "Labim Mall",
 		"city": "Kathmandu",
 		"province": "3",
@@ -627,7 +594,6 @@
 		"longitude": "85.31666395202585"
 	},
 	{
-		"id": "34",
 		"name": "Hyundai Sales Naxal",
 		"city": "Kathmandu",
 		"province": "3",
@@ -638,7 +604,6 @@
 		"longitude": "85.33003106227773"
 	},
 	{
-		"id": "35",
 		"name": "Trade Tower Thapathali",
 		"city": "Kathmandu",
 		"province": "3",
@@ -649,7 +614,6 @@
 		"longitude": "85.31994729057585"
 	},
 	{
-		"id": "36",
 		"name": "Bauwa Hotel And Guest House",
 		"city": "Bardibas",
 		"province": "2",
@@ -660,7 +624,6 @@
 		"longitude": "85.91898930493367"
 	},
 	{
-		"id": "37",
 		"name": "BYD Park",
 		"city": "Kathmandu",
 		"province": "3",
@@ -671,7 +634,6 @@
 		"longitude": "85.33131856411678"
 	},
 	{
-		"id": "38",
 		"name": "Sajha Yatayat",
 		"city": "Lalitpur",
 		"province": "3",
@@ -682,7 +644,6 @@
 		"longitude": "85.31745039095695"
 	},
 	{
-		"id": "39",
 		"name": "Hotel Landmark Pokhara",
 		"city": "Pokhara",
 		"province": "Gandaki",
@@ -693,7 +654,6 @@
 		"longitude": "83.95761433286081"
 	},
 	{
-		"id": "40",
 		"name": "Hotel Gunja Bardibas",
 		"city": "Pokhara",
 		"province": "2",
@@ -704,7 +664,6 @@
 		"longitude": "85.90329853345283"
 	},
 	{
-		"id": "41",
 		"name": "Jagat Motors",
 		"city": "Bhairawaha",
 		"province": "Lumbini",
@@ -715,7 +674,6 @@
 		"longitude": "83.4561846502268"
 	},
 	{
-		"id": "42",
 		"name": "Laxmi Dinesh 4 Wheelers",
 		"city": "Dhangadhi",
 		"province": "Sudurpaschim Province",
@@ -726,7 +684,6 @@
 		"longitude": "80.56778570363397"
 	},
 	{
-		"id": "43",
 		"name": "Siddhartha Resort Chisapani",
 		"city": "Chisapani",
 		"province": "Karnali",
@@ -737,7 +694,6 @@
 		"longitude": "81.28250618044632"
 	},
 	{
-		"id": "44",
 		"name": "Waterfront Resort",
 		"city": "Pokhara",
 		"province": "Gandaki",
@@ -748,7 +704,6 @@
 		"longitude": "83.95172023652376"
 	},
 	{
-		"id": "45",
 		"name": "Avocado & Orchid Resort",
 		"city": "Hetauda",
 		"province": "Bagmati",
@@ -759,7 +714,6 @@
 		"longitude": "85.03541692000935"
 	},
 	{
-		"id": "46",
 		"name": "Hetauda Wheels Pvt Ltd",
 		"city": "Hetauda",
 		"province": "Bagmati",
@@ -770,7 +724,6 @@
 		"longitude": "85.02998818755908"
 	},
 	{
-		"id": "47",
 		"name": "Hotel The Kingsbury",
 		"city": "Birtamode",
 		"province": "1",
@@ -781,7 +734,6 @@
 		"longitude": "87.97778701782491"
 	},
 	{
-		"id": "48",
 		"name": "Bodhi Redsun-Shinee Premiere",
 		"city": "Bhairahawa",
 		"province": "Lumbini",
@@ -792,7 +744,6 @@
 		"longitude": "83.476410364382978"
 	},
 	{
-		"id": "49",
 		"name": "Hotel Da Flamingo",
 		"city": "Butwal",
 		"province": "Lumbini",
@@ -803,7 +754,6 @@
 		"longitude": "83.46251608871846"
 	},
 	{
-		"id": "50",
 		"name": "Yatri Motorcycles Experience Center",
 		"city": "Kathmandu",
 		"province": "Bagmati",
@@ -814,7 +764,6 @@
 		"longitude": "85.330016348947"
 	},
 	{
-		"id": "51",
 		"name": "Team Eleven EV World- BYD SHOWROOM",
 		"city": "Nepalgunj",
 		"province": "Lumbini",
@@ -825,7 +774,6 @@
 		"longitude": "81.65709268264737"
 	},
 	{
-		"id": "52",
 		"name": "Metro Hospitality Dang",
 		"city": "Dang",
 		"province": "Lumbini",
@@ -836,7 +784,6 @@
 		"longitude": "82.28707513285744"
 	},
 	{
-		"id": "53",
 		"name": "Hyundai Sales/Service Dang",
 		"city": "Dang",
 		"province": "Lumbini",
@@ -847,7 +794,6 @@
 		"longitude": "82.49279660346103"
 	},
 	{
-		"id": "54",
 		"name": "Ocean Auto AC Charger",
 		"city": "Butwal",
 		"province": "Lumbini",
@@ -858,7 +804,6 @@
 		"longitude": "83.47720419304807"
 	},
 	{
-		"id": "55",
 		"name": "Hyundai Sales/Service Butwal",
 		"city": "Butwal",
 		"province": "Lumbini",
@@ -869,7 +814,6 @@
 		"longitude": "83.46439075215936"
 	},
 	{
-		"id": "56",
 		"name": "KOS Coffee & Restaurant",
 		"city": "Dumre",
 		"province": "Gandaki",
@@ -880,7 +824,6 @@
 		"longitude": "84.40475111763509"
 	},
 	{
-		"id": "57",
 		"name": "Gokarna Forest Resort",
 		"city": "Kathmandu",
 		"province": "Gandaki",
@@ -891,7 +834,6 @@
 		"longitude": "85.39870581209675"
 	},
 	{
-		"id": "58",
 		"name": "Taj Riverside Resort TATA Motors 25kW DC Fast Charger",
 		"city": "Mulkot",
 		"province": "2",
@@ -902,7 +844,6 @@
 		"longitude": "85.92027607898733"
 	},
 	{
-		"id": "59",
 		"name": "Akshit Resort and Rafting MG ZS EV 7KW AC CHARGER",
 		"city": "Mulkot",
 		"province": "2",
@@ -913,7 +854,6 @@
 		"longitude": "85.92322642403303"
 	},
 	{
-		"id": "60",
 		"name": "Hyundai Sales/Service Him Auto",
 		"city": "Nepalgunj",
 		"province": "5",
@@ -924,7 +864,6 @@
 		"longitude": "81.652359"
 	},
 	{
-		"id": "61",
 		"name": "Siddhartha Hotel",
 		"city": "Nepalgunj",
 		"province": "5",
@@ -935,7 +874,6 @@
 		"longitude": "81.645616"
 	},
 	{
-		"id": "62",
 		"name": "Sipradi Trading Pokhara",
 		"city": "Pokhara",
 		"province": "4",
@@ -946,7 +884,6 @@
 		"longitude": "83.9941635132"
 	},
 	{
-		"id": "63",
 		"name": "Quick20 Riverside Hotel",
 		"city": "Amlekhganj",
 		"province": "2",
@@ -957,7 +894,6 @@
 		"longitude": "84.98970838885263"
 	},
 	{
-		"id": "64",
 		"name": "Sipradi Trading Pvt.Ltd,Basamadi Hetauda",
 		"city": "Hetauda",
 		"province": "Bagmati",
@@ -968,7 +904,6 @@
 		"longitude": "84.9704420179544"
 	},
 	{
-		"id": "65",
 		"name": "APF Kalika Fuel Station",
 		"city": "Pokhara",
 		"province": "Gandaki",
@@ -983,7 +918,6 @@
 		]
 	},
 	{
-		"id": "66",
 		"name": "Club Denovo",
 		"city": "Butwal",
 		"province": "Lumbini",
@@ -1002,7 +936,6 @@
 		]
 	},
 	{
-		"id": "67",
 		"name": "Akshit Resort & Rafting",
 		"city": "Mulkot",
 		"province": "Bagmati",
@@ -1021,7 +954,6 @@
 		]
 	},
 	{
-		"id": "68",
 		"name": "Superior Motors Pvt. Ltd",
 		"city": "Biratnagar",
 		"province": "Province 1",

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "657524981418",
+    "project_id": "stunning-hue-415712",
+    "storage_bucket": "stunning-hue-415712.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657524981418:android:b97299dd6cb95f61051ad3",
+        "android_client_info": {
+          "package_name": "com.hemanta.ev_charging_stations_locator_fyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Wg7eXUWu-V0yb3OlW7xuCKkKJuptziQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
