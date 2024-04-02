@@ -974,5 +974,27 @@
 				"type": "AC"
 			}
 		]
+	},
+	{
+		"name": "IIMS COllege, Hemanta",
+		"city": "Biratnagar",
+		"province": "Province 1",
+		"address": "H08 Airport Chowk, Biratnagar 56613",
+		"telephone": "",
+		"type": ["car"],
+		"latitude": "26.479376852855083",
+		"longitude": "87.2764390888327",
+		"amenities": [
+			"wifi",
+			"parking",
+			"restroom"
+		],
+		"plugs": [
+			{
+				"plug": "type2",
+				"power": "40Kw",
+				"type": "AC"
+			}
+		]
 	}
 ]

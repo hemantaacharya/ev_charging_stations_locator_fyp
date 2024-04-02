@@ -11,7 +11,14 @@ import 'package:provider/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+      options: const FirebaseOptions(
+    apiKey: 'AIzaSyA8Wg7eXUWu-V0yb3OlW7xuCKkKJuptziQ',
+    appId: '1:657524981418:android:b97299dd6cb95f61051ad3',
+    messagingSenderId: '657524981418',
+    projectId: 'stunning-hue-415712',
+    storageBucket: 'stunning-hue-415712.appspot.com',
+  ));
   runApp(const MyApp());
 }
 
